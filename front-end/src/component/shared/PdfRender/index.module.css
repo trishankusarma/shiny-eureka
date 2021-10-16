@@ -1,0 +1,14 @@
+.pdf
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.control
+{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-between;
+}

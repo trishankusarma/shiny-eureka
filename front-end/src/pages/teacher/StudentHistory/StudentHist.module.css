@@ -1,0 +1,27 @@
+.SideList
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.SideList Button
+{
+    margin-right: 10%;
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 0.5%;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .SideList 
+   {
+    flex-direction: column;
+   }
+   .SideList Button
+   {
+       width: 50%;
+       margin: auto;
+       margin-bottom: 10px;
+   }
+}

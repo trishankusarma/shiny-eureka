@@ -1,0 +1,23 @@
+.Timer
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 2rem; */
+    /* font-weight: 600; */
+    /* background:rgb(22, 228, 200); */
+    border-radius: 5px;
+    /* height: 60px; */
+    align-items: center;
+    color: white;
+    margin-top:1.1rem;
+}
+@media only screen and (max-width: 600px) {
+    .Timer
+    {
+        height: 45px;
+        font-size: 1.5rem;
+        margin-top: .5rem;
+    }
+   
+  }

@@ -1,0 +1,17 @@
+
+/* Safari syntax */
+ :-webkit-full-screen {
+  background-color: white;
+}
+
+/* IE11 syntax */
+  :-ms-fullscreen {
+  background-color: white;
+}
+
+/* Standard syntax */
+ :fullscreen {
+  background-color: white;
+}
+
+
